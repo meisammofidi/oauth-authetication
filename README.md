@@ -19,7 +19,7 @@ Below you can see all the routes:
 
 Register user\
 Public route\
-POST http://localhost:3000/api/users/register
+POST http://localhost:3000/api/users/register__
 Body request
 {
     "username": "String",
@@ -28,7 +28,7 @@ Body request
 
 Login User\
 Public route\
-POST http://localhost:3000/api/users/login
+POST http://localhost:3000/api/users/login <br />
 Body request
 {
     "username": "String",
@@ -37,11 +37,11 @@ Body request
 
 Get user info from token\
 Private route\
-GET http://localhost:3000/api/users/register <br />
+GET http://localhost:3000/api/users/register 
 
 Get all aricles\
 Private route\
-GET http://localhost:3000/api/articles <br />
+GET http://localhost:3000/api/articles 
 
 Insert aricle\
 Private route\
