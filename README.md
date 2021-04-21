@@ -1,6 +1,6 @@
 # oauth-authetication
-This is a Token Base Authentication. Use can create a user with username and password.
-Login to and get auth token too use for private routes like Articles. To see the lost of Articles or insert new one you always have to pass the toke from header otherwise you would get 'No Token.authorization denied' message.
+This is a Token Base Authorization. You can create a user with username and password.
+Login to and get auth token to use for private routes like Articles. To see all the Articles or insert new one you always have to pass the token from header otherwise you would get 'No Token. Authorization denied' message.
 ## Installation
 
 Please follow the structure below 
