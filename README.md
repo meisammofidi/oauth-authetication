@@ -37,11 +37,11 @@ Body request
 
 Get user info from token\
 Private route\
-GET http://localhost:3000/api/users/register \
+GET http://localhost:3000/api/users/register <br />
 
 Get all aricles\
 Private route\
-GET http://localhost:3000/api/articles \
+GET http://localhost:3000/api/articles <br />
 
 Insert aricle\
 Private route\
