@@ -17,35 +17,35 @@ node server.js
 ## Usage
 Below you can see all the routes:
 
-Register user
-Public route
-POST http://localhost:3000/api/users/register
+Register user\
+Public route\
+POST http://localhost:3000/api/users/register\
+Body request\
+{
+    "username": "String",
+    "password": "String"
+}\
+
+Login User\
+Public route\
+POST http://localhost:3000/api/users/login\
 Body request
 {
     "username": "String",
     "password": "String"
-}
+}\
 
-Login User
-Public route
-POST http://localhost:3000/api/users/login
-Body request
-{
-    "username": "String",
-    "password": "String"
-}
+Get user info from token\
+Private route\
+GET http://localhost:3000/api/users/register\
 
-Get user info from token 
-Private route
-GET http://localhost:3000/api/users/register
+Get all aricles\
+Private route\
+GET http://localhost:3000/api/articles\
 
-Get all aricles
-Private route
-GET http://localhost:3000/api/articles
-
-Insert aricle
-Private route
-POST http://localhost:3000/api/articles
+Insert aricle\
+Private route\
+POST http://localhost:3000/api/articles\
 Body request
 {
     "name": "String",
