@@ -19,8 +19,8 @@ Below you can see all the routes:
 
 Register user\
 Public route\
-POST http://localhost:3000/api/users/register__
-Body request
+POST http://localhost:3000/api/users/register <br />
+Body request\
 {
     "username": "String",
     "password": "String"
@@ -29,7 +29,7 @@ Body request
 Login User\
 Public route\
 POST http://localhost:3000/api/users/login <br />
-Body request
+Body request\
 {
     "username": "String",
     "password": "String"
@@ -37,16 +37,19 @@ Body request
 
 Get user info from token\
 Private route\
-GET http://localhost:3000/api/users/register 
+Headers: auth-token:Token\
+GET http://localhost:3000/api/auth
 
 Get all aricles\
 Private route\
+Headers: auth-token:Token\
 GET http://localhost:3000/api/articles 
 
 Insert aricle\
 Private route\
 POST http://localhost:3000/api/articles \
-Body request
+Headers: auth-token:Token\
+Body request\
 {
     "name": "String",
     "author": "String"
