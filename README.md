@@ -58,7 +58,7 @@ Body request\
 auth-token=<Token> must be passed in headers for private routes
 
 ## Middleware
-There is one middleware as auth which is going to add add Token to headers to be useable in all the private routes. So we only need just add this middleware on route
+There is one middleware as auth which is going to add Token to headers to be useable in all the private routes. So we only need just add this middleware on route
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
