@@ -1,4 +1,4 @@
 {
-  "mongoUrl": "mongodb+srv://admin:5407632@virginia-cluster0.dwn3k.azure.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "mongoUrl": "mongodb+srv://<Username>:<Password>@virginia-cluster0.dwn3k.azure.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   "jwtSecret": "scotiabanksecret"
 }
